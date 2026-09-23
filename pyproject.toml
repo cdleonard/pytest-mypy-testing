@@ -74,11 +74,26 @@ mypy-1-15 = [
 mypy-1-19 = [
     "mypy~=1.19.1",
 ]
+mypy-1-20 = [
+    "mypy~=1.20.0",
+]
 mypy-1-8 = [
     "mypy~=1.8.0",
 ]
 mypy-1-9 = [
     "mypy~=1.9.0",
+]
+mypy-2-0 = [
+    "mypy~=2.0.0",
+]
+mypy-2-1 = [
+    "mypy~=2.1.0",
+]
+mypy-2-2 = [
+    "mypy~=2.2.0",
+]
+mypy-2-3 = [
+    "mypy~=2.3.0",
 ]
 pytest = [
     {include-group = "pytest-9-0"},
@@ -132,6 +147,11 @@ conflicts = [
         { group = "mypy-1-14" },
         { group = "mypy-1-15" },
         { group = "mypy-1-19" },
+        { group = "mypy-1-20" },
+        { group = "mypy-2-0" },
+        { group = "mypy-2-1" },
+        { group = "mypy-2-2" },
+        { group = "mypy-2-3" },
     ],
     [
         { group = "pytest" },
